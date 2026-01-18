@@ -36,7 +36,7 @@ function addGamesToPage(games) {
         // create a new div element, which will become the game card
         let gameCard = document.createElement("div");
         const display = `
-            <div class = "game-card">
+            <div>
                 <img class = "game-img" src="${game.img}">
                 <h1> ${game.name} </h1>
                 <p> ${game.description} </p>
